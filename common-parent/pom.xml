@@ -10,6 +10,8 @@
   <modules>
     <module>..</module>
     <module>../redis-base</module>
+      <module>../io-model</module>
+      <module>../java-base</module>
   </modules>
   <packaging>pom</packaging>
 
