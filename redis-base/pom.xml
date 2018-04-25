@@ -18,6 +18,7 @@
     <modules>
         <module>../mysql-base</module>
         <module>../multithreading</module>
+        <module>../distributed-lock</module>
     </modules>
 
     <properties>

@@ -36,6 +36,7 @@ mysql默认的事务隔离级别为repeatable-read
 ```
 select @@tx_isolation;
 
+REPEATABLE-READ
 ```
 #### 传播行为
 1、PROPAGATION_REQUIRED：

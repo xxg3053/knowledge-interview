@@ -160,6 +160,12 @@ Redis Sentinel是一个分布式架构，包含若干个Sentinel节点和Redis�
 
 ## Redis分布式锁的实现方式
 1.单机使用jedis实现分布式锁
-2.redis集群方式使用Redisson实现分布式锁  
+2.redis集群方式使用Redisson实现分布式锁    
+
+## Redis的keys方法的性能问题
+keys的模糊匹配功能很方便也很强大，但是在生产环境需要慎用！开发中使用keys的模糊匹配却发现redis的CPU使用率极高，
+所以公司的redis生产环境将keys命令禁用了！
+那怎么解决这种类似的keys模糊匹配问题呢？其中常见的方法就是设置一个set，将需要使用的keys存储在set中。
+或者使用scan命令代替使用
 
 

@@ -91,3 +91,10 @@ servlet 是线程不安全的
 Hash取模，分而治之，HashMap统计，堆/快速/归并排序  
 
 Bloom filterBitmap方式
+
+## 配置中心
+spring cloud config    
+netflix archaius   
+ctrip apollo    
+disconf   
+hawk   

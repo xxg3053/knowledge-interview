@@ -1,4 +1,4 @@
-package com.kenfo.redis;
+package com.kenfo;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.Pipeline;
