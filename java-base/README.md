@@ -32,4 +32,15 @@ Semaphore翻译成字面意思为 信号量，Semaphore可以控同时访问的�
 
 wait和sleep
 
-wait在notity后不是直接执行，而是在竞争到锁之后才执行
+wait在notity后不是直接执行，而是在竞争到锁之后才执行 
+
+
+## filter()过滤列表
+```
+com.kenfo.lambda.CollectionFilterTest.java
+```
+
+## 日期比较
+```
+com.kenfo.date.Compare.java
+```
