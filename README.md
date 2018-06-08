@@ -1,6 +1,6 @@
 # 知识点
 
-Object类的方法：   
+## Object类的方法(平安)   
 clone()  
 equals(object)  
 finalize()  
